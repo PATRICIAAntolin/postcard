@@ -1,41 +1,47 @@
-body{
-    background:grey;
-    font-size: 20px;}
-.contenedor-principal{
-    display: flex;
-    background:yellow;}
+.body{
+    background:black;
+    font-size: 18px;}
 .postcard{
-    background:red;
+    background: white;
     width: 600px;
     height: 400px;
     margin:auto;
     position: absolute; top:50%; left:50%;
     transform: translate(-50%,-50%);
-    padding:10px;}
+    padding:15px;}
 .postcard-header{
-    width: 100%;
-    height: 100px;
-    justify-content:space-between;}
+    overflow: hidden;}
 .postcard-header h1{
-    background:blue;
     margin:0px;
     width: 70%;}
 .postcard-header img{
-    background:yellow;
     max-width: 10%;
     float: right;
-    margin-top: 0%;
+    margin-top: 0%;}
+.postcard-contain{
+    overflow: hidden;}
+.postcard-footer {
+    padding: 10px;
+    text-align: center;
 }
-.parrafos{
-    background:green;
+.postcard-footer input[type=submit]{
+    border: none;
+    border-bottom: 1px solid gray;
+    }
+.parragraphs{
+    font-size:18px;
     float:left;
     width: 50%;
     height: 200px;
     margin-top:20px;}
-.formulario{
-    background:purple;
+.form{
     float:right;
     width: 50%;
-    display:block;}
-input{font-size: 20px;}
+  }
+.form input{
+    display:block;
+}  
+.input{
+    font-size: 18px;
+}
     
